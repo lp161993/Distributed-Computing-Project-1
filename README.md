@@ -1,4 +1,4 @@
-# Distributed-Computing-Project-1
+#LCR algorithm for Leader election
 
 README file:
 
