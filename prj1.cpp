@@ -29,7 +29,7 @@ void LCR(long threadid, int thread_no) {
     while(!round_completion){
     	while(!round_start[thread_no])
     	{
-			sleep_for(milliseconds(1));
+			sleep_for(milliseconds(1)); //waits till Master issues round_start
 		}
     	round_start[thread_no] = false;
     	
